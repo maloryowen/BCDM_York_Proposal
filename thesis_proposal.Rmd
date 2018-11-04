@@ -1,0 +1,69 @@
+---
+title: "Linking frugivory in Cactaceae to Avian seed dispersal"
+author: "Malory Owen and Christopher Lortie"
+date: "November 27th, 2018"  
+examination committee: "Dr.  Christopher Lortie & Dr. Bridget Stutchbury"
+  
+bibliography: thesis_proposal.bib
+output: 
+  pdf_document:
+    fig_caption: yes
+---
+
+#Timeline
+```{r, include=FALSE}
+library(knitr)
+Timeline<-read.csv("~/Masters/Proposals/thesis-proposal/Timeline.xlsx")
+kable(Timeline, align='c', caption="Table 1: A proposed timeline of the three chapters")
+
+```
+
+#Introduction
+
+#Study Sites
+
+**Mojave Desert: Sweeney Granite Mountains Desert Reseach Center**
+A preservation with use exclusive to researchers, the Mojave Desert Site (34.8056°N, 115.6639°W) is located in San Bernadino Country. It boasts a high diversity of 504 vascular plant, 156 birds, 42 mammals, and 2 amphibians. The site has an average of 23 cm of precipitation annually. The July maximum and minimum mean temperature of 33 degrees C and 20 degrees C, respectively, and a December maximum and minimum mean temperature of 8 degrees C and -1 degrees C, respectivey. The elevation range is 1,128 to 2,071 meters. It is home to Cholla and Prickly Pear. 
+
+**Wind Wolves Preserve**
+Self identifying as the West Coast's largest nonprofit preserve at 93,000 acres, the Wind Wolves Preserve () is located within Kern County,  CA. The site's elevation ranges between 640 and 6,005 feet. The site is home to several endagered species, including the Bakersfield cactus (Latin). The preserve is dominated by invasive grasses, particularly Brome (Latin) with the management conducting studies to remove those invasives. 
+
+**TBD Arizona Site**
+We must conduct a team expedition to find suitable sites in the Sonoran Desert, where the Saquaro Cactus (Latin) is found. 
+
+#Study Species
+
+#Chapter 1:
+
+##Purpose
+##Research Questions
+##Hypotheses
+##Predictions
+##Methods
+##Progress to date
+##Future goals
+
+#Chapter 2:
+
+##Purpose
+##Research Questions
+##Hypotheses
+##Predictions
+##Treatments
+##Methods
+##Progress to date
+##Future goals
+
+#Chapter 3:
+
+##Purpose
+##Research Questions
+##Hypotheses
+##Predictions
+##Treatments
+##Methods
+##Progress to date
+##Future goals
+
+#References:
+
