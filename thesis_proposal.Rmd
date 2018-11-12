@@ -1,11 +1,13 @@
 ---
-title: "Linking frugivory in Cactaceae to Avian seed dispersal"
+title: "Linking Avian frugivory to Cactaceae seed dispersal and successful facilitation"
 author: "Malory Owen and Christopher Lortie"
-date: "November 27th, 2018"  
-examination committee: "Dr.  Christopher Lortie & Dr. Bridget Stutchbury"
-  
-bibliography: thesis_proposal.bib
-output: 
+date: "November 27th, 2018"
+output:
+  word_document: 
+    highlight: monochrome
+  html_document:
+    keep_md: yes
+    theme: journal
   pdf_document:
     fig_caption: yes
 ---
@@ -20,22 +22,47 @@ kable(Timeline, align='c', caption="Table 1: A proposed timeline of the three ch
 
 #Introduction
 
+Desert ecosystems are threatened. Climate change increases severe weather such as droughts and flooding (cite) and human development fragments and destroys habitats (cite). In the American Southwest, arid ecosystems are home to dozens of endangered plants and animals (cite), and provide ecosystem services to humans (). In order to restore the region and mitigate the effects of climate change and human development, we must understand the connections which proliferate life in the desert. 
+
+Often used interchangeability with facilitation, positive interactions are any associative action between interspecifics where one species benefits another's fitness in some capacity (cite). The further scientists determine the prevalence and strength of positive interactions in determining an ecosystem, the more communities are viewed as interconnected and non-random [Callaway1997]. This suggests that positive interactions amoungst plants and animals are one of the driving forces behind an ecosystem's development. For this reason, identifying the mechanisms of facilitation is an avenue to understanding how certain ecosystems disperse and form. 
+
+Uncoincidentally, facilitators, also known as benefactors, often take the form of a keystone species within an ecosystem (cite). Facilitators are keystone species because of their ability to provide resources or protect against stessors (cite). In arid ecosystems, this takes the form of providing soil nutrients and water (cite) or preventing excessive sunlight or physical damage from trampling and wind (cite). Nurse plants (or nurse rocks) provide these amenities to seedlings, and improve recruitment and germination in juvenile plants (cite). This makes nurse plants important facilitators for many species. Some of these patient plants are even obligated to be deposited under the canopy of a nurse plant to germinate at all. Therefore, the nurse plant is a limiting factor in the growth of many plant species. 
+
+However, before a nurse plant can "offer its services" to a germinating seedling, the seed must arrive under the canopy of a nurse plant (cite: functioning of a nurse plant). Because plants are sessile lifeforms, the movement of seeds must rely of some abiotic or biotic vector of transportation (cite). The placement of of a seed after being deposited either through endozoochory, exozoochory, wind dispersal, or mechanical dispersal is known as seed rain (cite). A seed shadow, however, refers to the placement of daughter seeds relative to the mother plant (cite). There is much research in regards to the successful recruitment and germination of seed rain based on the nurse plant (cite) as well as the effects of the gut of endozoochorous dispersers on germination success (cite). However, there is little work done which has identified the relative importance of dispersers, particularly in arid ecosystems (cite). 
+
+Frugivorous birds are known endozoochorous vectors of seed dispersal in many habitats (cite), however their importance as dispersers for members of the family Cactaceae (cacti) in arid environments is undocumented, particularly as it relates to their effectiveness of placing seeds in areas of facilitation. In these studies, we will identify the strength of birds as seed dispersers for different species and characteristics of cacti. Our first hypothesis is that frugivorous birds will be found more frequently at larger cacti, and cacti with more seeds. Secondly, seed rain from birds will be more frequently found under facilitating shrubs than in open areas. 
+
+
+
+
 #Study Sites
 
 **Mojave Desert: Sweeney Granite Mountains Desert Reseach Center**
-A preservation with use exclusive to researchers, the Mojave Desert Site (34.8056°N, 115.6639°W) is located in San Bernadino Country. It boasts a high diversity of 504 vascular plant, 156 birds, 42 mammals, and 2 amphibians. The site has an average of 23 cm of precipitation annually. The July maximum and minimum mean temperature of 33 degrees C and 20 degrees C, respectively, and a December maximum and minimum mean temperature of 8 degrees C and -1 degrees C, respectivey. The elevation range is 1,128 to 2,071 meters. It is home to Cholla and Prickly Pear. 
+A preservation with use exclusive to researchers, the Mojave Desert Site (34.8056°N, 115.6639°W) is located in San Bernadino Country. It boasts a high diversity of 504 vascular plant, 156 birds, 42 mammals, and 2 amphibians. The site has an average of 23 cm of precipitation annually. The July maximum and minimum mean temperature of 33 degrees C and 20 degrees C, respectively, and a December maximum and minimum mean temperature of 8 degrees C and -1 degrees C, respectively. The elevation range is 1,128 to 2,071 meters. It is home to Buckhorn Cholla (*Cylindroputia acanthocarpa*) and Beavertail Prickly Pear (*Opuntia basilaris* var. *basilaris*). 
 
 **Wind Wolves Preserve**
-Self identifying as the West Coast's largest nonprofit preserve at 93,000 acres, the Wind Wolves Preserve () is located within Kern County,  CA. The site's elevation ranges between 640 and 6,005 feet. The site is home to several endagered species, including the Bakersfield cactus (Latin). The preserve is dominated by invasive grasses, particularly Brome (Latin) with the management conducting studies to remove those invasives. 
+Self identifying as the West Coast's largest nonprofit preserve at 93,000 acres, the Wind Wolves Preserve (34.9943°N, 119.1854°W) is located within Kern County,  CA. The site's elevation ranges between 640 and 6,005 feet. The site is home to several endangered species, including the Bakersfield cactus (*Opuntia basilaris* var. *treleasei*). The preserve is dominated by invasive grasses, particularly Brome Grass (*Bromus* ssp.) with the management conducting studies to remove those invasives. 
 
 **TBD Arizona Site**
-We must conduct a team expedition to find suitable sites in the Sonoran Desert, where the Saquaro Cactus (Latin) is found. 
+We must conduct a team expedition to find suitable sites in the Sonoran Desert, where the Saguaro Cactus (*Carnegiea gigantea*) is found. 
 
 #Study Species
+
+_**Opuntia basilaris**_ var. _**basilaris**_, also known as Beavertail, is a frequently occurring species of the family Cactaceae. Found at 800-1900 meters above sea level in gravelly bajadas, washes, and pinyon-juniper woodland (a common habitat in the Granite Mountains) , this species is more easily accessible than some other *Opuntia* species [@Andre2016]. Like other members of the *Opuntia* genus, this species is distinct for its "paddle" shaped leaves and bright pink flowers. It is listed as secure by The Nature Conservancy.  
+
+_**Cylindropuntia acanthocarpa**_, or Buckhorn Cholla, is another member of the Cactaceae family found in the Mojave desert and Granite Mountains. Found commonly in gravelly bajadas at 900-1500 meters above sea-level, it has similar accessibility as *O. basilaris* [@Andre2016]. With an appearance more like a small, spiky tree and large red flowers, the genus *Cyclindropuntia* was recently split from the *Opuntia* genus [@Nobel2002].
+
+_**Opuntia basilaris**_ var. _**treleasei**_, or the Bakersfield Cactus, is a state and federally listed endangered variation of *Opuntia basilaris*. At the time of listing, it was considered its own species, *Opuntia treleasei* [@StateofCalifornia2018]. Like the *basilaris* variation, the *treleasei* is found in gravelly soil [@Hoover 1970]. 
+
+_**Carnegiea gigantea**_, commonly known as Saguaro, is a columnar cactus found in the Sonoran Desert. A distinctive species, it's large, white, waxy flowers bloom at the apex of the arms or spire of the plant. While they can live between 150-200 years, they are obligated to be facilitated by nurse plants. They also require wet environments for germination, a limiting factor in the American Southwest. (cite)
+
 
 #Chapter 1:
 
 ##Purpose
+This meta-analysis will provide a comprehensive analysis of studies related to the reproductive cycle of plants within the family Cactaceae. 
+
+
 ##Research Questions
 ##Hypotheses
 ##Predictions
@@ -46,6 +73,7 @@ We must conduct a team expedition to find suitable sites in the Sonoran Desert, 
 #Chapter 2:
 
 ##Purpose
+The purpose of this study will be to 
 ##Research Questions
 ##Hypotheses
 ##Predictions
