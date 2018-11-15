@@ -11,12 +11,14 @@ output:
 ---
 
 #Timeline
-```{r, echo=FALSE}
-library(knitr)
-Timeline<-read.csv("~/Masters/Proposals/thesis-proposal/Timeline.csv")
-kable(Timeline, align='c', caption="Table 1: A proposed timeline of the three chapters")
 
-```
+Table: Table 1: A proposed timeline of the three chapters
+
+ Chapter                                                  Title                                                                                                      Goal                                                                                                                Timeline                                                         
+---------  ----------------------------------------------------------------------------------------------------  -------------------------------------------------------------------------------------------------------------  --------------------------------------------------------------------------------------------------------------------------
+    1                                 Fruiting metrics in Cactaceae- A meta-analysis                              Identify and isolate the combined results of relevant studies in Cactaceae in regards to fruiting patterns.                            Derived data extracted by December 2018. Paper written by January 2019.                          
+    2                       Strength of birds as pollinators and seed dispersers in Cactaceae                          Connect bird interactions with flowering and fruiting in cacti of different endangerment status.          Flowering field season January-Febuary April-May 2019. Fruiting field season August 2019. Paper written by January 2020. 
+    3       Avian pollination and seed dispersal influence on seed shadow of Cactaceae obligatory facilitatees                  Determine the role of birds as pollinators and seed dispersers for Saguaro ssp.                         Flowering field season April-May 2020. Fruitnig field season August 2020. Paper written by December 2020.         
 
 #Introduction
 
@@ -69,22 +71,8 @@ This meta-analysis will provide a comprehensive analysis of studies related to f
 ##Strategy of the systematic review
 Using combinations of search terms in Web of Science, I will perform a systematic review of fruiting cacti and their size, isolating the relevant studies as data points for a meta-analysis through a series of filtering mechanisms (Fig 1). The search terms include different combinations of: "cact", "seed", "fruit", "allocat", and "size". To be included in the meta-analysis, papers must have been published in the past 5 years, be ecological in discipline, and report a regression or correlation coefficient. 
 
-```{r, echo=FALSE}
-library(PRISMAstatement)
-
-prisma(found=0,
-       found_other=0,
-       no_dupes=0,
-       screened=0,
-       screen_exclusions=0,
-       full_text=0,
-       full_text_exclusions=0,
-       qualitative=0,
-       quantitative=0,
-       extra_dupes_box=TRUE,
-       width=800, height=800)
-
-```
+<!--html_preserve--><div id="htmlwidget-a8d99e1b68ad51534198" style="width:800px;height:800px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a8d99e1b68ad51534198">{"x":{"diagram":"digraph prisma {\n    node [shape=\"box\"];\n    graph [splines=ortho, nodesep=1, dpi = 72]\n    a -> nodups;\n    b -> nodups;\n    a [label=\"Records identified through\ndatabase searching\n(n = 0)\"];\n    b [label=\"Additional records identified\nthrough other sources\n(n = 0)\"]\n    nodups -> {incex; dups};\n       nodups [label=\"Records after duplicates removed\n(n = 0)\"];\n       dups [label=\"Duplicates excluded\n(n = 0)\"]; {rank=same; nodups dups}\n    incex -> {ex; ft}\n    incex [label=\"Records screened\n(n = 0)\"];\n    ex [label=\"Records excluded\n(n = 0)\"];\n    {rank=same; incex ex}\n    ft -> {qual; ftex};\n    ft [label=\"Full-text articles assessed\nfor eligibility\n(n = 0)\"];\n    {rank=same; ft ftex}\n    ftex [label=\"Full-text articles excluded,\nwith reasons\n(n = 0)\"];\n    qual -> quant\n    qual [label=\"Studies included in qualitative synthesis\n(n = 0)\"];\n    quant [label=\"Studies included in\nquantitative synthesis\n(meta-analysis)\n(n = 0)\"];\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
 Fig 1: A PRIMSA statment identifying the workflow completed to date for the systematic review of papers to be included in the meta-analysis [@Moher2009].
 
 ##Progress to date
