@@ -3,14 +3,15 @@ title: Linking Avian pollination and frugivory to Cactaceae seed dispersal and s
   facilitation.
 author: "Malory Owen and Chris Lortie"
 date: "November 27th, 2018"
-output: html_document
+output:
+  
 bibliography: thesisbibtest.ris
 ---
 
 #Timeline
 ```{r, echo=FALSE}
 library(knitr)
-Timeline<-read.csv("~/Masters/Proposals/thesis-proposal/Timeline.csv")
+Timeline<-read.csv("Timeline.csv")
 kable(Timeline, align='c', caption="Table 1: A proposed timeline of the three chapters")
 
 ```
