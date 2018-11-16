@@ -1,13 +1,10 @@
 ---
-title: "Linking Avian pollination and frugivory to Cactaceae seed dispersal and successful facilitation"
-author: "Malory Owen and Christopher Lortie" 
+title: Linking Avian pollination and frugivory to Cactaceae seed dispersal and successful
+  facilitation.
+author: "Malory Owen and Chris Lortie"
 date: "November 27th, 2018"
 output:
-  html_document:
-    keep_md: yes
-    theme: journal
-  pdf_document:
-    fig_caption: yes
+  word_document: default
 ---
 
 #Timeline
@@ -139,21 +136,21 @@ In addition to surveying cactus density and diversity, we will also be conductin
 ###Flowering Experiment
 Pending the exploratory week, we will return in April/May during the flowering season to observe pollinating birds interactions with cacti. The cacti will have different levels of manipulated "showiness" (percent of flowers) at different sized cacti. First, we will choose 270 cacti (10 replicates of each combination of species, size, and percent flower), and remove 0%, 50%, and 100% of flower buds from 10 individuals of each size class and species. 
 
-While the flowering season for our study cacti is in May, the cactus individual itself only blooms for 1-2 days throughout the season. Additionally, we are most interested in hummingbirds as pollinators, which are nearly impossible to document on camera traps and difficult to identify by eye in the field (especially female/juveniles). Because of these constraints, we will primarily rely on focal observations aided by a 200-500mm digital camera. We will do 1 hour observations in mornings or evenings at each combination of variables 4 times (36 hours of observations).
+While the flowering season for our study cacti is in May, the cactus individual itself only blooms for 1-2 days throughout the season. Additionally, we are most interested in hummingbirds as pollinators, which are nearly impossible to document on camera traps and difficult to identify by eye in the field (especially female/juveniles). Because of these constraints, we will primarily rely on focal observations aided by a 200-500mm digital camera. We will do 1 hour observations in mornings or evenings at each combination of variables 4 times and at an open, cactusless site (40 hours of observations). During this time, we will also be equipped with audio recorders with parabolic shields to make recordings of bird calls *ad libitum*.
 
-We will also deploy 18 unidirectional audio recorders with parabolic shields at 1 representation of every combination of cactus variables, which means recorders will be deployed at 9 sites (2 recorders per site). One recorder will face the cactus and one will face an open area in the opposite direction. The recorders will be 5m from the cactus of interest, and the open site will have no cacti within 5m of the recorded direction. After 5 days of recording, we will move the recorders to randomly selected cacti, and repeat the process for 25 days. 
+
 
 ###Fruiting Experiment
 Next, in August, we will begin the fruiting observation and experiment--it will be nearly identical to the flowering experiment, but with some added components. Each combination of variables (species, size, and fruit percent) will again have 10 replicates, meaning 270 cacti will be a part of the study. We will remove 0%, 50%, and 100% of fruits from small, medium, and large cacti for all three species. We will immediately place each cactus's fruit in a sealed zip lock bag to prevent desiccation while in the field. Post collection, we will weigh the fruits and sieve the seeds for weighing and counting. 
 
-We will place two camera traps at an individual sample cactus for all combinations of variables, one facing the cactus (>5m away from the cactus) and one facing the open (18 total cameras). We will leave this camera to record movement for 5 days taking still images. After 5 days, we will randomly choose a new cactus/open site for each treatment combination to place camera traps at. We will replicate this process 5 times, over 25 days. Because camera traps may be unreliable recorders of bird abundance, we will also replicate this process with sound. We will place unidirectional recorders, with parabolic shields, facing the cactus 1m away, and a corresponding recorder placed facing the opposite direction, with no cactus within 5m in front of the recorder. Sound recorders have been shown to be as reliable a measurement of bird presence compared to walking point transects, and are more time and cost effective [@Darras2018]. To identify bird calls, we will classify the calls by ear, and then use a audio software program, like Sound Analysis Pro 2011 to identify the many hours of audio data. [@Grieves2014; @Grieves2015].
+We will place two camera traps at an individual sample cactus for all combinations of variables, one facing the cactus (>5m away from the cactus) and one facing the open (18 total cameras). We will leave this camera to record movement for 5 days taking still images. After 5 days, we will randomly choose a new cactus/open site for each treatment combination to place camera traps at. We will replicate this process 5 times, over 25 days. Because camera traps may be unreliable recorders of bird abundance, we will also use audio recordings to measure bird presence. We will record during our focal observations (see below) *ad libitum* during both the cactus and open observations. Sound recorders have been shown to be as reliable a measurement of bird presence compared to walking point transects, and are more time and cost effective [@Darras2018]. To identify bird calls, we will classify the calls by ear, and then use a audio software program, like Sound Analysis Pro 2011 to identify the many hours of audio data. [@Grieves2014; @Grieves2015].
 
-In addition to passive monitoring, we will also perform focal observations, equipped with 200-500mm digital cameras. We will be at least 10 meters from the cactus, so as not to impact bird abundance. These focal observations will last for 1 hour in mornings or evenings, and be performed 4 times at each combination of treatments (36 total hours of focal observation). We will record each bird individual's species and behavior (using an ethogram). Should there be more than one individual present, we will record the visiting species, but continue behavior observation for the first arrival birds (for up to 10 minutes, although this time limit is unlikely to be surpassed considering bird movement). 
+In addition to passive monitoring, we will also perform focal observations, equipped with 200-500mm digital cameras. We will be at least 10 meters from the cactus, so as not to impact bird abundance. These focal observations will last for 1 hour in mornings or evenings, and be performed 4 times at each combination of treatments and in an open, cactusless site (40 total hours of focal observation). We will record each bird individual's species and behavior (using an ethogram). Should there be more than one individual present, we will record the visiting species, but continue behavior observation for the first arrival birds (for up to 10 minutes, although this time limit is unlikely to be surpassed considering bird movement). 
 
 We will give seeds taken from *Opuntia basilaris* var. *treleasei* to the management at the Wind Wolves Preserve, should they desire to use these seeds in restoration projects (as they do with many native species at the site). I will have a team of 4-6 undergraduate assistants to help me, particularly with fruit collection and focal observations.
 
 ##Paired Flower and Fruit Observations
-Because the manipulated flowering and fruiting cacti will not be paired, we will also perform a paired observational study. To link flowering number to fruiting number, we will find 20 individuals of each species in flowering season, and count the number of flowers/buds, determine the branching pattern, and measure their volume (x, y, z axis). We will also measure the sucrose content of the nectar for each plant using a radiometer, as sucrose is the nutritional source in nectar for hummingbirds [@MartinezDelRio1990]. These cacti will be geographically logged, and revisited in the fruiting season. In August, we will similarly collect and count the number of fruit. These data will allow us to compare flowering patterns with fruiting patterns in paired individuals across species. 
+Because the manipulated flowering and fruiting cacti will not be paired, we will also perform a paired observational study. To link flowering number to fruiting number, we will find 20 individuals of each species (60 cacti total) in flowering season, and count the number of flowers/buds, determine the branching pattern, and measure their volume (x, y, z axis). We will also measure the sucrose content of the nectar for each plant using a radiometer, as sucrose is the nutritional source in nectar for hummingbirds [@MartinezDelRio1990]. These cacti will be geographically logged, and revisited in the fruiting season. In August, we will similarly collect and count the number of fruit. These data will allow us to compare flowering patterns with fruiting patterns in paired individuals across species. 
 
 #Chapter 3: Avian pollination and seed dispersal influence on seed shadow of Cactaceae obligatory facilitatees
 
@@ -211,4 +208,4 @@ What will differ, however, is an additional component where we explore the sagua
 This study opens up at least two side projects, potentially to be conducted by an undergraduate research assistant. One would be linking bird frugivory to seed shadow using seed trays placed under different mesohabitats. For example, the trays could be placed under nurse shrubs, cacti, and open spaces. This would help complete the circle of my thesis chapters. Additionally, by collecting fruit and seed samples, a collaborator could identify nutrition offered to bird species by facilitating cactus species. This would offer a better understanding of the importance of these cactus species to the community structure.
 
 #References:
-
+ 
