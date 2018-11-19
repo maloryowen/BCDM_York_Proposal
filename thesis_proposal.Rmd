@@ -64,23 +64,25 @@ I will perform a systematic review of fruiting cacti and their size, isolating t
 ##Progress to date
 At this time, 302 papers have been compiled after removing duplicates. Next steps are identifying papers as fitting requirements prefaced above, and then compiling the data points (regression and correlation coefficients). Finally, we will summarize the pooled results of the relevant papers. 
 
-```{r, echo=FALSE}
-library(PRISMAstatement)
 
-prisma(found=330,
-       found_other=0,
-       no_dupes=302,
-       screened=0,
-       screen_exclusions=0,
-       full_text=0,
-       full_text_exclusions=0,
-       qualitative=0,
-       quantitative=0,
-       extra_dupes_box=TRUE,
-       width=800, height=800)
+```{r, echo=FALSE}
+#library(PRISMAstatement)
+
+#prisma(found=330,
+       #found_other=0,
+       #no_dupes=302,
+       #screened=0,
+       #screen_exclusions=0,
+       #full_text=0,
+       #full_text_exclusions=0,
+       #qualitative=0,
+       #quantitative=0,
+       #extra_dupes_box=TRUE,
+       #width=800, height=800)
 
 ```
-Fig 1: A PRIMSA statement identifying the workflow completed to date for the systematic review of papers to be included in the meta-analysis [@Moher2009].
+![Fig 1: A PRIMSA statement identifying the workflow completed to date for the systematic review of papers to be included in the meta-analysis [@Moher2009].](PRISMA.PNG)
+
 
 #Chapter 2: Strength of birds as pollinators and seed dispersers in Cactaceae
 
