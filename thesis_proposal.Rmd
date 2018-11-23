@@ -3,9 +3,11 @@ title: Linking avian pollination and frugivory to *Cactaceae* seed dispersal and
   facilitation.
 author: "Malory Owen and Chris Lortie"
 date: "November 27th, 2018"
-output: word_document
-always_allow_html: yes
+output:
+  html_document:
+    df_print: paged
 bibliography: thesisbibtest.ris
+always_allow_html: yes
 ---
 
 #Timeline
