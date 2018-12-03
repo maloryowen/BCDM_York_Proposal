@@ -4,9 +4,11 @@ title: Linking avian pollination and frugivory to *Cactaceae* seed dispersal and
 author: "Malory Owen and Chris Lortie"
 date: "November 27th, 2018"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
-bibliography: thesisbibtest.ris
+  word_document: default
+bibliography: thesisbib.bib
 always_allow_html: yes
 ---
 
@@ -22,29 +24,24 @@ kable(Timeline, align='c', caption="Table 1: A proposed timeline of the three ch
 
 Desert ecosystems are threatened by a variety of circumstances. Anthropogenic actions like climate change and habitat fragmentation are perpetuating arid ecosystem degradation. Specifically, climate change increases severe precipitation changes such as droughts and flooding [@Nielsen2015; @Pfahl2017; @Singh2013; @Smith2011], and human development like roads, solar panels, and land use change fragments and destroys habitats [@Gutzwiller2003; @Hernandez2014; @Rodriguez-Estrella2007]. In the American Southwest, arid ecosystems are home to 350 endangered/threatened plants and animals [@California2018a; @California2018b], provide ecosystem services to humans [@Taylor2017], and have cultural significance to indigenous peoples. In order to restore the region and mitigate the effects of climate change and human development, we must understand the connections that support and sustain biodiversity in deserts. 
 
-Positive interactions are any associative action between interspecifics where one species benefits performance or fitness of another in some capacity [@Bertness1994]. Positive interactions are shown to be strong determinants of the structure of ecosystems, thereby showing the interconnected and non-random way communities are formed [@Callaway1997; @Gelmi-Candusso2017]. In a similar, but narrower sense, facilitation is the process by which a foundational species perpetuates the success of many other individuals within an ecosystem--particularly in years of high stress [@Maestre2009]. This concept suggests that facilitation amongst plants and animals by foundational species is a driving forces behind an ecosystem's development [@Angelini2011; @Almeida2018]. Additionally, these interactions are evolutionarily beneficial to parties due to the mutualistic nature of the benefits the interacting individuals may receive both within and between species, even when costs are accounted for [@Barker2017; @Bronstein2009; @Bronstein2001]. In arid ecosystems, positive interactions can provide water and shade from excessive solar radiation for other plants and animals [@Flores-Torres2017; @Miranda-Jacome2013], or to a lesser extent, prevent physical damage from herbivory, wind, and freezing temperatures [@Gomez-Aparicio2008; @Parker1989; @Tewksbury2001; @Nobel1980]. Benefactor plants provide these amenities to seedlings, improve recruitment, germination, and growth in juvenile plants [@Franco2009]. This makes benefactor plants important facilitators for many species. Some of these protege plants are even obligated to be deposited under the canopy of a benefactor plant to germinate at all [@Drezner2003; @Drezner2010]. Therefore, the benefactor plant is a limiting factor in the growth of many plant species. 
+Positive interactions are any associative action between interspecifics where one species benefits performance or fitness of another in some capacity [@Bertness1994]. Positive interactions are shown to be strong determinants of the structure of ecosystems, thereby showing the interconnected and non-random way communities are formed [@Callaway1997; @Gelmi-Candusso2017]. In a similar, but narrower sense, facilitation is the process by which a foundational species perpetuates the success of many other individuals within an ecosystem--particularly in years of high stress [@Maestre2009]. This concept suggests that facilitation among plants and animals by foundational species is a driving forces behind an ecosystem's development [@Angelini2011; @Almeida2018]. Additionally, these interactions are evolutionarily beneficial to parties due to the mutualistic nature of the benefits the interacting individuals may receive both within and between species, even when costs are accounted for [@Barker2017; @Bronstein2009; @Bronstein2001]. In arid ecosystems, positive interactions can provide water and shade from excessive solar radiation for other plants and animals [@Flores-Torres2017; @Miranda-Jacome2013], or to a lesser extent, prevent physical damage from herbivory, wind, and freezing temperatures [@Gomez-Aparicio2008; @Parker1989; @Tewksbury2001; @Nobel1980]. Benefactor plants provide these amenities to seedlings, improve recruitment, germination, and growth in juvenile plants [@Franco2009]. This makes benefactor plants important facilitators for many species. Some of these protege plants are even obligated to be deposited under the canopy of a benefactor plant to germinate at all [@Drezner2003; @Drezner2010]. Therefore, the benefactor plant is a limiting factor in the growth of many plant species. 
 
 However, a seed must arrive under the canopy of a benefactor plant in order to receive the benefits of associating with a benefactor. Because plants are sessile lifeforms, the movement of seeds must rely of some abiotic or biotic vector of transportation [@Nathan2000]. Seed rain is the placement of of a seed after being deposited either through endozoochory, exozoochory, wind dispersal, or mechanical dispersal, whereas seed shadow refers to the placement of daughter seeds relative to the mother plant [@Willson1993]. There is ample research in regards to the successful recruitment and germination of seed rain based on the benefactor plant as well as the effect of the endozoochorous disperser's gut on germination rate and success [@Verdu2004; @Traveset2001; @Traveset2002]. This research provides the base work to enhance our knowledge on the relative importance of dispersers, particularly in arid ecosystems and to the end of deposition at facilitating benefactor plants. These interactions are examples of non-trophic, mechanistic pathways that directly determine the biodiversity of birds and cacti, and indirectly influences the biodiversity of other benefactor species, as cacti are keystone species in arid ecosystems [@Lortie2016].
 
-In order to be dispersed via bird frugivory, a cactus must have some characteristic which drives that frugivory. As allocation theory suggests, cacti have evolved to allocate energy and resources to anatomical traits that best increase their relative fitness [@Obeso2004]. Perhaps these traits that are attractive to frugivorous birds also improve fitness beyond just ability to be dispersed. For example, fruit size/number and seed size/number are reproductive organ characteristics which may determine both frugivory, and by extension, fitness in plants. Fruit and frugivory are not the only ways birds increase fitness of cacti. Fruiting is dependent on pollination, a service that birds, particularly hummingbirds, can provide. The magnet species hypothesis suggests that pollinators are drawn to "showier" flowering displays, creating a pollinator-rich area which surrounding plants benefit from  [@Thomson1978; @Johnson2003; @Wolf1990]. Height of inflorescence is another contributing factor to hummingbird pollinator visitation, as higher flowers are more likely to be seen by flying hummingbirds [@Wolf1990; @Mitchell1994]. If larger cacti have more flowers and produce more fruit, we may expect more hummingbird pollinator visits, and therefore, increased relative fitness.
+There are two instances of positive interactions that perpetuate seed dispersal: pollination and frugivory. This connection of two mutualistic events through a single taxonomic group is known as double mutualism, and is a rare event but present in birds [@Kelly2004; @Ladley1996]. Double mutualism is most common in harsh ecosystems with relatively low biodiversity, such as arid deserts [@Garcia2012; @Gomes2014]. We suggest that double mutualism of cacti by pollinating/frugivorous birds may be a key factor in cactus reproduction, and eventual successful facilitation. Mechanistically, in order to be dispersed via bird frugivory, a cactus must have some characteristic which drives that frugivory. As allocation theory suggests, cacti have evolved to allocate energy and resources to anatomical traits that best increase their relative fitness [@Obeso2004]. Perhaps these traits that are attractive to frugivorous birds also improve fitness beyond just ability to be dispersed. For example, fruit size/number and seed size/number are reproductive organ characteristics which may determine both frugivory, and by extension, fitness in plants. Fruit and frugivory are not the only ways birds increase fitness of cacti. Fruiting is dependent on pollination, a service that birds, particularly hummingbirds, can provide. Foragers (like pollinators) will sacrifice energy while foraging until a patch's resource availability is equal to the average resource availability of the entire habitat, or until the energy expended foraging outweighs the energy gained. This resource density value is known as the Giving-up Density (GUD), and is based on the Marginal value theorem (MVT) which is a model that predicts foraging behavior when resources exist in patches [@Charnov1976]. This principle governs pollination visitation, a metric for pollination interaction strength. Height of inflorescence and showiness of inflorescence display are contributing factors to hummingbird pollinator visitation, as higher flowers are more likely to be seen by flying hummingbirds [@Wolf1990; @Mitchell1994], and more flowers will draw more hummingbirds. If larger cacti have more flowers, we may expect more hummingbird pollinator visits, and therefore produce more fruit, thereby increasing relative fitness for cacti.
 
 Bird-cacti interactions are likely driving forces behind the infrastructure of desert ecosystems, but more research on plant-animal interactions is needed. Members of the Cactaceae family in the *Opuntia* and *Clyndropuntia* genuses, which are both benefactors and proteges, may rely heavily on positive bird interactions at the flowering and fruiting stage to reproduce successfully. In these studies, we will identify the pollinating and dispersing strength of birds for different species and characteristics of cacti, and increase understanding of interactions at the community level's role in determining an ecosystem's biotic structure.  
 
-##Study Sites
+##Study Site
 
 **Mojave Desert: Sweeney Granite Mountains Desert Reseach Center**
-The Sweeney Granite Mountains Desert Research Center in the Mojave Desert (34.8056°N, 115.6639°W) is located in San Bernadino Country. It boasts a high species richness of 504 vascular plant, 156 birds, 42 mammals, and 2 amphibians. The site has an average of 23 cm of precipitation annually. The July maximum and minimum mean temperature of 33 degrees C and 20 degrees C, respectively, and a December maximum and minimum mean temperature of 8 degrees C and -1 degrees C, respectively. The elevation range is 1,128 to 2,071 meters. It is home to two species of interest, Buckhorn Cholla (*Cylindroputia acanthocarpa*) and Beavertail Prickly Pear (*Opuntia basilaris* var. *basilaris*). 
-
-**Wind Wolves Preserve**
-WWP is the West Coast's largest nonprofit preserve in the Western at 93,000 acres (34.9943°N, 119.1854°W). It is located within Kern County,  CA. The elevation of the site ranges between 640 and 6,005 feet. The site is home to several endangered species, including the Bakersfield cactus (*Opuntia basilaris* var. *treleasei*). The preserve is dominated by invasive grasses, particularly Brome Grass (*Bromus* ssp.) with the management conducting studies to remove those invasives. 
+The Sweeney Granite Mountains Desert Research Center in the Mojave Desert (34.8056°N, 115.6639°W) is located in San Bernadino Country. It boasts a high species richness of 504 vascular plant, 156 birds, 42 mammals, and 2 amphibians. The site has an average of 23 cm of precipitation annually. The July maximum and minimum mean temperature of 33 degrees C and 20 degrees C, respectively, and a December maximum and minimum mean temperature of 8 degrees C and -1 degrees C, respectively. The elevation range is 1,128 to 2,071 meters. It is home to two species of interest, Buckhorn Cholla (*Cylindroputia acanthocarpa*) and Beavertail Prickly Pear (*Opuntia basilaris*). 
 
 #Study Species
 
-_**Opuntia basilaris**_ var. _**basilaris**_, also known as Beavertail, is a frequently occurring species of the family Cactaceae. Found at 800-1900 meters above sea level in gravelly bajadas, washes, and pinyon-juniper woodland (a common habitat in the Granite Mountains) , this species is more easily accessible than some other *Opuntia* species [@Andre2006]. Like other members of the *Opuntia* genus, this species is distinct for its "paddle" shaped leaves and bright pink flowers. It is listed as secure by The Nature Conservancy.  
+_**Opuntia basilaris**_, also known as Beavertail, is a frequently occurring species of the family Cactaceae. Found at 800-1900 meters above sea level in gravelly bajadas, washes, and pinyon-juniper woodland (a common habitat in the Granite Mountains) , this species is more easily accessible than some other *Opuntia* species [@Andre2006]. Like other members of the *Opuntia* genus, this species is distinct for its "paddle" shaped leaves and bright pink flowers. It is listed as secure by The Nature Conservancy.  
 
 _**Cylindropuntia acanthocarpa**_, or Buckhorn Cholla, is another member of the Cactaceae family found in the Mojave desert and Granite Mountains. Found commonly in gravelly bajadas at 900-1500 meters above sea-level, it has similar accessibility as *O. basilaris* @Andre2006]. With an appearance more like a small, spiky tree and large red flowers, the genus *Cyclindropuntia* was recently split from the *Opuntia* genus [@Nobel2002].
-
-_**Opuntia basilaris**_ var. _**treleasei**_, or the Bakersfield Cactus, is a state and federally listed endangered variation of *Opuntia basilaris*. At the time of listing, it was considered its own species, *Opuntia treleasei* [@California2018b]. Like the *basilaris* variation, the *treleasei* is found in gravelly soil [@Hoover1970]. 
 
 _**Carnegiea gigantea**_, commonly known as Saguaro, is a columnar cactus found in the Sonoran Desert. A distinctive species, it's large, white, waxy flowers bloom at the apex of the arms or spire of the plant. While they can live between 150-200 years, they are obligated to be facilitated by benefactor plants [@Drezner2014]. They also require wet environments for germination, a limiting factor in the American Southwest [@Turner1966].
 
@@ -55,10 +52,9 @@ _**Carnegiea gigantea**_, commonly known as Saguaro, is a columnar cactus found 
 This meta-analysis will provide a comprehensive analysis of studies related to fruit and seeds of plants within the Cactaceae family including allocation theory. 
 
 ##Research Questions
-1) Are fruit and seed size dependent?
-2) Is there a relationship between reported individual fruit size and seed production?
-3) Are size and branching related to age, and do they influence reproductive success independent of age?
-4) Are cacti species nearer on the phylogenetic tree allocating energy in similar ways?
+1) Are fruit and seed size/production related?
+2) Are size and branching related to age, and do they influence reproductive success independent of age?
+3) Are cacti species nearer on the phylogenetic tree allocating energy in similar ways?
 
 ##Strategy of the systematic review
 I will perform a systematic review of fruiting cacti and their size, isolating the relevant studies as data points for a meta-analysis through a series of filtering mechanisms (Fig 1). The following search terms were used in Web of Science: "cact", "seed", "fruit", "allocat", and "size". All papers must have been published in the past 5 years, be ecological in discipline, and report a regression or correlation coefficient. 
@@ -92,86 +88,76 @@ At this time, 302 papers have been compiled after removing duplicates. Next step
 This chapter will examine the interactions between pollinating/frugivorous bird interactions and observed and experimentally manipulated characteristics for 3 cacti species. 
 
 ##Research Questions
-1. Is cactus size an indicator for fruit mass/abundance? For flower abundance? 
-2. Is there a positive relationship between number of seeds per fruit and fruit size in the cacti of interest? 
-3. Are frugivorous birds stronger dispersers for larger cacti? 
-4. Are pollinating birds (hummingbirds) optimally foraging at larger cacti?
+1. How strong are bird-cacti interactions based on different cactus characteristics?
+2. Is there a relationship between seed size, seed abundance, fruit size, fruit/flower abundance, and cactus size?
 
 ##Hypotheses and Predictions
 Hypothesis: Birds and cacti are linked through positive interactions in desert ecosystems, with plant size being a determining factor of interaction strength.
 Predictions
-  a. Cacti reproduction effort is size-dependent, and fruit and seed size are positively correlated.
-  b. Bird visitation rates for pollination and frugivory are positively related to cacti size and floral display.
-  c. The bird-cacti relationship is species specific (both for bird and cacti species).
+  a. Bird visitation rates for pollination and frugivory are positively related to cactus characteristics.
+  b. The bird-cacti relationship is species specific (both for bird and cacti species).
+
 
 ##Factors
-* **Microhabitat**: Open/Cactus
-  + *Open is the control for cactus presence*
-* **Species of cactus**: *Opuntia basilaris* var. *basilaris*, *Opuntia basiliaris* var. *treleasei*, or *Cylindropuntia anthrocarpa*
-* **Size of cactus individual**: Large, medium, small as defined by equally-sized bins after the preliminary survey
-* **Percentage of flower/fruit on cactus**: 0%, 50%, 100% 
+* **Percentage of flower/fruit on cactus**: 0%, 25%, 50%, 75%, 100% 
   + *0% fruit on cactus is the negative control, 100% fruit on cactus is positive control for fruit abundance*
+* **Species of cactus**: *Opuntia basilaris* or *Cylindropuntia anthrocarpa*
+* **Size of cactus individual**: Large, medium, small as defined by equally-sized bins after the preliminary survey
 
 ##Responses
-* Mass of individual fruits
-* Mass of individual seeds
-* Number of fruits/flowers per cactus
-* Number of seeds per fruit
 * Bird visitation rate
-* Species richness and diversity per cactus 
+* Bird species richness and diversity per cactus 
 * Proportion of frugivous birds present relative to non frugivorous birds
+* Mass of individual fruits/seeds
+* Number of seeds per fruit
+* Number of fruits/flowers per cactus
+* Number of cactus branches
+
 
 ##Methods and Experimental Design
 
 ###Site specific metrics
-A preliminary survey of 100 individuals for each study species will be done at the start of the growing season in 2019. The individuals will be selected using a random number generator corresponding to individuals on transects. The size of cacti will be measured including height, dbh, and total number of branches. *Opuntia basilaris* var. *basilaris* and *Cylindropuntia anthrocarpa* are found in the SGMDRC, whereas *Oputnia basilaris* var. *treleasei* is found at WWP. On each transect, the total density of all cacti species will also be recorded using a distance to nearest neighbor point measure in a line transect [@Krebs2014]. Transects are 100m long, starting from a randomly generated point, with a point of measurement being every 5m. There will be 6 replications of transects. The preliminary week is to ensure my sample size and time frame are reasonable, should any components of the experimental design require revision. 
+A preliminary survey of 100 individuals for each study species will be done at the start of the growing season in 2019. The individuals will be selected using a random number generator corresponding to individuals on transects. The size of cacti will be measured including height, dbh, and total number of branches. *Opuntia basilaris* and *Cylindropuntia anthrocarpa* are found in the SGMDRC. On each transect, the total density of all cacti species will also be recorded using a distance to nearest neighbor point measure in a line transect [@Krebs2014]. Transects are 100m long, starting from a randomly generated point, with a point of measurement being every 5m. There will be 6 replications of transects. Upon further collaboration with GIS and remote sensing experts, we will use satellite imagery or ground-based LiDAR to perform site-wide diversity/density measurements. The preliminary week is to ensure my sample size and time frame are reasonable, should any components of the experimental design require revision. 
 
 In addition to surveying cactus density and diversity, we will also conduct density and diversity surveys of birds at the site. While walking 1km transects, we will record the presence and transect meter for all birds seen or heard, and identify them to the best of our ability. Doing this once every 7 days will give us a better idea of the total bird diversity/density of the site.
 
 ###Flowering Experiment
-Pending the exploratory week, we will return in April/May during the flowering season to observe pollinating birds interactions with 270 cactus individuals. The cacti will have different levels of manipulated "showiness" (0%, 50%, 100% percent of flowers) of the 3 size classes and 3 species. We will snip X% of buds off the cactus, but also record the number of blooming flowers on each individual when performing observations, as not all flowers of a cactus bloom concurrently.
+Pending the exploratory week, we will return in April/May during the flowering season to observe pollinating birds interactions with 300 cactus individuals (10 replications per characteristic combination). The cacti will have different levels of manipulated "showiness" (0%, 25%, 50%, 75%, 100% percent of flowers) of the 3 size classes and 2 species. We will snip X% of buds off the cactus, but also record the number of blooming flowers on each individual when performing observations, as not all flowers of a cactus bloom concurrently.
 
-While the flowering season for our study cacti is in May, the cactus individual itself only blooms for 1-2 days throughout the season. Additionally, we are most interested in hummingbirds as pollinators, which are nearly impossible to document on camera traps and difficult to identify by eye in the field (especially female/juveniles). Because of these constraints, we will primarily rely on focal observations aided by a 200-500mm digital camera. We will do 1-hour observations in mornings and evenings at each combination of variables 4 times and at an open, cactusless site (112 hours of observations). During this time, we will also be equipped with audio recorders with parabolic shields to make recordings of bird calls *ad libitum*.
+While the flowering season for our study cacti is in May, the cactus individual itself only blooms for 1-2 days throughout the season. Additionally, we are most interested in hummingbirds as pollinators, which are nearly impossible to document on camera traps and difficult to identify by eye in the field (especially female/juveniles). Because of these constraints, we will primarily rely on focal observations aided by a 200-500mm digital camera. We will do 1-hour observations in mornings and evenings at each combination of variables 4 times (120 hours of observations). During this time, we will also be equipped with audio recorders with parabolic shields to make recordings of bird calls *ad libitum*.
 
 ###Fruiting Experiment
-Next, in August, we will begin the fruiting observation and experiment--it will be nearly identical to the flowering experiment, but with some added components. Each combination of variables (species, size, and fruit percent) will again have 10 replicates, meaning 270 cacti will be a part of the study. We will remove 0%, 50%, and 100% of fruits from small, medium, and large cacti for all three species. We will immediately place each cactus's fruit in a sealed zip lock bag to prevent desiccation while in the field. Post collection, we will weigh the fruits and sieve the seeds for weighing and counting. 
+Next, in August, we will begin the fruiting observation and experiment--it will be nearly identical to the flowering experiment, but with some added components. Each combination of variables (species, size, and fruit percent) will again have 10 replicates, meaning 300 cacti will be a part of the study. We will remove 0%, 25%, 50%, 75%, and 100% of fruits from small, medium, and large cacti for all three species. We will immediately place each cactus's fruit in a sealed zip lock bag to prevent desiccation while in the field. Post collection, we will weigh the fruits and sieve the seeds for weighing and counting. 
 
-We will place two camera traps at an individual sample cactus for all combinations of variables, one facing the cactus (>5m away from the cactus) and one facing the open (18 total cameras). We will leave this camera to record movement for 5 days taking still images. After 5 days, we will randomly choose a new cactus/open site for each treatment combination to place camera traps at. We will replicate this process 5 times, over 25 days. Because camera traps may be unreliable recorders of bird abundance, we will also use audio recordings to measure bird presence. We will record during our focal observations (see below) *ad libitum* during both the cactus and open observations. Sound recorders have been shown to be as reliable a measurement of bird presence compared to walking point transects, and are more time and cost effective [@Darras2018]. To identify bird calls, we will classify the calls by ear, and then use a audio software program, like Sound Analysis Pro 2011 to identify the many hours of audio data [@Grieves2014; @Grieves2015].
+We will place a camera trap at an individual sample cactus for all combinations of variables >5m away from the cactus (30 cameras). We will leave this camera to record movement for 5 days taking still images. After 5 days, we will randomly choose a new cactus/open site for each treatment combination to place camera traps at. We will replicate this process 5 times, over 25 days. Because camera traps may be unreliable recorders of bird abundance, we will also use audio recordings to measure bird presence. We will record during our focal observations (see below) *ad libitum* during both the cactus and open observations. Sound recorders have been shown to be as reliable a measurement of bird presence compared to walking point transects, and are more time and cost effective [@Darras2018]. To identify bird calls, we will classify the calls by ear, and then use a audio software program, like Sound Analysis Pro 2011 to identify the many hours of audio data [@Grieves2014; @Grieves2015].
 
-In addition to passive monitoring, we will also perform focal observations, equipped with 200-500mm digital cameras. We will be at least 10 meters from the cactus, so as not to impact bird abundance. These focal observations will last for 1 hour in mornings or evenings, and be performed 4 times at each combination of treatments and in an open, cactusless site (112 total hours of focal observation). We will record each bird individual's species and behavior (using an ethogram). Should there be more than one individual present, we will record the visiting species, but continue behavior observation for the first arrival birds (for up to 10 minutes, although this time limit is unlikely to be surpassed considering bird movement). 
+In addition to passive monitoring, we will also perform focal observations, equipped with 200-500mm digital cameras. We will be at least 10 meters from the cactus, so as not to impact bird abundance. These focal observations will last for 1 hour in mornings or evenings, and be performed 4 times at each combination of treatments (120 total hours of focal observation). We will record each bird individual's species and behavior (using an ethogram). Should there be more than one individual present, we will record the visiting species, but continue behavior observation for the first arrival birds (for up to 10 minutes, although this time limit is unlikely to be surpassed considering bird movement). Once the focal bird has left the cactus of interest, we will note the location it arrived at after leaving the cactus of interest.
 
 ##Paired Flower and Fruit Observations
-Because the manipulated flowering and fruiting cacti will not be paired, we will also perform a paired observational study. To link flowering number to fruiting number, we will find 20 individuals of each species (60 cacti total) in flowering season, and count the number of flowers/buds, determine the branching pattern, and measure their volume (x, y, z axis). We will also measure the sucrose content of the nectar for each plant using a radiometer, as sucrose is the nutritional source in nectar for hummingbirds [@MartinezDelRio1990]. These cacti will be geographically logged, and revisited in the fruiting season. In August, we will similarly collect and count the number of fruit. These data will allow us to compare flowering patterns with fruiting patterns in paired individuals across species. 
+Because the manipulated flowering and fruiting cacti will not be paired, we will also perform a paired observational study. To link flowering number to fruiting number, we will find 20 individuals of each species (40 cacti total) in flowering season, and count the number of flowers/buds, determine the branching pattern, and measure their volume (x, y, z axis). We will also measure the sucrose content of the nectar for each plant using a radiometer, as sucrose is the nutritional source in nectar for hummingbirds [@MartinezDelRio1990]. These cacti will be geographically logged, and revisited in the fruiting season. In August, we will similarly collect and count the number of fruit. These data will allow us to compare flowering patterns with fruiting patterns in paired individuals across species. 
 
 #Chapter 3: Avian pollination and seed dispersal influence on seed shadow of Cactaceae obligate protege plants
 
 ##Purpose
-This chapter will test the importance of birds as seed dispersers for cacti which are, at different life stages, beneficiaries and benefactors of facilitating plants and animals respectively. Specifically, the Saguaro cactus. This chapter has nearly the same methods as Chapter 2, except an additional step to link birds to saguaro facilitators.
+This chapter will test the importance of birds as seed dispersers for cacti which are, at different life stages, beneficiaries and benefactors of facilitating plants and animals respectively. Specifically, the Saguaro cactus. This chapter has the same methods as Chapter 2.
 
 ##Research Questions
-1. Does flower number predict fruit number?
-2. Do larger cacti produce more flowers/fruits, or higher mass fruits than smaller cacti?
-3. Do larger fruits produce more seeds, or higher mass seeds than smaller fruits?
-4. Are frugivorous birds more frequent at for larger cacti?
-5. Are pollinating birds (hummingbirds) optimally foraging at larger cacti?
-6. Do birds produce seed rain in favorable habitats for germinating seedlings (under a benefactor shrub canopy)?
+1. Are pollinating/frugivorous birds stronger interactors for larger cacti? 
+2. Is cactus size an indicator for fruit mass/abundance? For flower abundance? 
+3. Is there a relationship between seed size, seed abundance, fruit size, fruit abundance, and cactus size?
 
 ##Hypotheses 
 Positive interactions between birds and cacti are the limiting factor in cacti distribution to the canopy of a benefactor shrub, with plant size and allocation being a determining factor in interaction strength.
 Predictions
-  a. Cacti reproduction effort is size-dependent, and fruit and seed size are positively correlated.
-  b. Bird visitation rates for pollination and frugivory are positively related to cacti size and floral display.
-  c. The bird-cacti relationship is species specific (both for bird and cacti species).
-  d. Frugivorous birds are perching in spaces for depositing seed rain in optimal germination habitats (under benefactor shrubs.)
+  a. Bird visitation rates for pollination and frugivory are positively related to cacti size and floral display.
+  b. The bird-cacti relationship is species specific (both for bird and cacti species).
+
 
 ##Factors
-* **Microhabitat**: Open/Cactus
-  + *Open is the control for cactus presense.*
-* **Microhabitat**: Open/benefactor Shrub
-  + *Open is the control for benefactor shrub presense.*
-* **Size of cactus individual**: Large, medium, small
-* **Percentage of fruit on cactus**: 0%, 50%, 100% 
+* **Percentage of fruit on cactus**: 0%, 25%, 50%, 75%, 100% 
   + *0% fruit on cactus is the negative control, 100% fruit on cactus is positive control for fruit abundance*
+* **Size of cactus individual**: Large, medium, small
+
 
 ##Response 
 * Mass of individual fruits/seeds
@@ -180,14 +166,9 @@ Predictions
 * Bird visitation rate
 * Species richness and diversity per cactus 
 * Proportion of frugivous birds present relative to non frugivorous birds
-* Frugivorous bird visitation rate at cacti and benefactor shrub
-* Species richness and diversity per benefactor shrub
-* Proportion of frugivorous birds present relative to other species per benefactor shrub
 
 ##Methods
 All methods in regards to density, flowering, fruiting, and seed manipulations/measurements will be the same as in Chapter 2. Additionally, the methods to monitor bird species will also remain the same (camera trapping, audio recording, focal observations, and walking surveys). 
-
-What will differ, however, is an additional component where we explore the saguaro's need to germinate under a benefactor plant's canopy [@Turner1966]. To do this, we will randomly select 100 shrub individuals, and count the number of Saguaro juveniles having germinated under the shrub canopy. We will then measure 100 paired open spaces 5m from a measured shrub. To determine bird abundance at these two sites, we will place 2 camera traps at 20 of the shrub/open sites (one camera facing the shrub, one facing the open).  We will only perform this protocol during the fruiting season.  
 
 #Future Work 
 This study opens up at least two side projects, potentially to be conducted by an undergraduate research assistant. One would be linking bird frugivory to seed shadow using seed trays placed under different mesohabitats. For example, the trays could be placed under benefactor shrubs, cacti, and open spaces. This would help complete the circle of my thesis chapters. Additionally, by collecting fruit and seed samples, a collaborator could identify nutrition offered to bird species by facilitating cactus species. This would offer a better understanding of the importance of these cactus species to the community structure.

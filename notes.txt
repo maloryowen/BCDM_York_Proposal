@@ -2,7 +2,7 @@ we need a paper about the semantics of positive interactions with an ontology
 
 
 
-double mutualism - pollination and then seed dispersal
+double mutualism - pollination and then seed dispersal 
 
 
 
@@ -17,17 +17,17 @@ connect with Tarmo - or ask Jenna
 
 
 
-refine - why research question - about cacti size?
+refine - why research question - about cacti size? 
 
 
 
-fruit display - or cacti size - need to handle cacti size
+fruit display - or cacti size - need to handle cacti size 
 
 
 
 assumption is that size matters but not necessarily a critical prediction
 
-GUD - resource density versus risk versus costs? maybe do not invoke optimal foraging theory - flip the prediction and put birds first
+GUD - resource density versus risk versus costs? maybe do not invoke optimal foraging theory - flip the prediction and put birds first 
 
 
 
